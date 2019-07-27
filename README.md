@@ -1,2 +1,2 @@
-# botui-chatbot-demo
-Demo of a simple linear chatbot with BotUI
+# BotUI Chatbot Tutorial
+Demo of how to build a simple linear chatbot with BotUI.
