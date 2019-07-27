@@ -13,19 +13,6 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/botui@0.3.7/build/botui.js"></script>
-    <script>
-      var botui = new BotUI('hello-world');
-
-      botui.message.add({
-        content: 'Hello World from bot!'
-      }).then(function () { // wait till previous message has been shown.
-
-        botui.message.add({
-          delay: 1000,
-          human: true,
-          content: 'Hello World from human!'
-        });
-      });
-    </script>
+    <script src="./bot-script.js"></script>
   </body>
 </html>
