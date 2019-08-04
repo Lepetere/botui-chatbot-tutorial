@@ -1,16 +1,16 @@
-var botui = new BotUI('hello-world');
+var botui = new BotUI('help-bot');
 
 botui.message.add({
   delay: 500,
   loading: true,
   content: 'Hi! Welcome to my website'
-}).then(function (index) {
+}).then(function () {
   return botui.message.add({
-    delay: 1000,
+    delay: 500,
     loading: true,
-    content: 'Do you have any questions?'
+    content: 'How can I help?'
   });
-}).then(function (index) {
+}).then(function () {
   return botui.action.button({
     action: [
       {
